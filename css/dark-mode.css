@@ -1,0 +1,19 @@
+:root:has(.dark-mode:checked) {
+    --hue: 35;
+    --lightness: 44%;
+    --saturation: 72%;
+    --main-color: #fff;
+    --text-color: #9f9f9f;
+    --color-light-grey: #252525;
+    --light-hue: 0;
+    --light-saturation: 0%;
+    --light-lightness: 9%;
+    --color-light: hsl(var(--light-hue),
+            var(--light-saturation),
+            var(--light-lightness));
+    --background: url(../imgs/team-shape-dark.svg);
+}
+
+:root:has(.dark-mode:checked) body {
+    background-color: #202020;
+}
